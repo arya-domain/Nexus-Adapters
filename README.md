@@ -4,23 +4,9 @@
   <img src="assets/model.png" alt="Model Architecture" style="background-color: white;">
 </div>
 
-## Abstract
+## About
 
 We introduce **Nexus Adapters**, novel text-guided efficient adapters for structure-preserving conditional generation using diffusion models. Existing approaches require redundant parameters and lack prompt awareness, making them computationally expensive.
-
-## Key Contributions
-
-- **Nexus Prime**: Efficient adapter with only 8M additional parameters (vs T2I-Adapter baseline)
-- **Nexus Slim**: Lightweight variant with 18M fewer parameters than T2I-Adapter while maintaining state-of-the-art performance
-- Cross-attention mechanisms for rich multimodal conditioning
-- Superior understanding of input prompts while preserving structural information
-
-## Features
-
-- Text-guided structure-preserving conditional generation
-- Parameter-efficient design for resource-constrained environments
-- Cross-modal attention for better prompt-structure alignment
-- State-of-the-art performance on structure-conditional image generation
 
 ## How to Run
 
