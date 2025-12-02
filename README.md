@@ -30,7 +30,7 @@ Use the `infer_image.ipynb` notebook for image generation with text-guided struc
 
 1. Open `infer_image.ipynb` in Jupyter
 2. Follow the notebook cells to load the model and generate images
-3. Provide text prompts and structural inputs (sketches/depth maps)
+3. Provide text prompts and structural inputs
 4. View generated outputs
 
 ### Training
@@ -55,3 +55,22 @@ bash run.sh
 - `models/adapter.py` - Adapter architecture
 - `models/pipeline.py` - Diffusion pipeline
 - `assets/` - Model images and resources
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{nexus2026,
+  title={Efficient Text-Guided Convolutional Adapter for the Diffusion Model},
+  author={Aryan Das, Koushik Biswas, Swalpa Kumar Roy, Badri Narayana Patro, Vinay Kumar Verma},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2026}
+}
+```
+
+## References
+
+- Rombach et al. "High-Resolution Image Synthesis with Latent Diffusion Models" (CVPR 2022)
+- Mou et al. "T2I-Adapter: Learning Adapters to Drive Pretrained Models in Text-to-Image Generation" (arXiv 2023)
+- Dosovitskiy et al. "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" (ICLR 2021)
